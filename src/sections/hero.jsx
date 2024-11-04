@@ -25,7 +25,7 @@ const Hero = () => {
 				</p>
 			</div>
 			<div className="w-full h-full absolute inset-0">
-			    <Leva/>
+			<Leva/>
 				<Canvas className="w-full h-full">
 					<Suspense fallback={<CanvasLoader/>}>
 						<PerspectiveCamera makeDefault position={[0, 0, 20]} />
