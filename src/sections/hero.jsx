@@ -31,7 +31,7 @@ const Hero = () => {
 						<PerspectiveCamera makeDefault position={[0, 0, 20]} />
 						<HackerRoom
 						scale={sizes.deskScale}
-						position={[sizes.deskPosition]}
+						position={sizes.deskPosition}
 						rotation={[0.1, -Math.PI, 0]}
 						/>
 						<ambientLight intensity={1}/>
