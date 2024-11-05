@@ -16,7 +16,7 @@ const {scene} = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/obj
         })
     })
   return (
-    <mesh{...props} ref={targetRef}>
+    <mesh{...props} ref={targetRef} rotation={[0, Math.PI / 5, 0]} scale={1.5}>
     <primitive object={scene}/>
     </mesh>
   )
