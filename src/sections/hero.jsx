@@ -6,6 +6,7 @@ import CanvasLoader from "../components/canvasLoader";
 //import { Leva } from "leva";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from '../constants/index.js';
+import Target from "../components/target.jsx";
 
 const Hero = () => {
 	const isSmall = useMediaQuery({maxWidth: 440});
@@ -34,6 +35,9 @@ const Hero = () => {
 						position={sizes.deskPosition}
 						rotation={[0.1, -Math.PI, 0]}
 						/>
+						<group>
+							<Target position={sizes.targetPosition}/>
+						</group>
 						<ambientLight intensity={1}/>
 						<directionalLight position={[10,10,10]} intensity={0.5}
 						/>
