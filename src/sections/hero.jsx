@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import HackerRoom from "../components/hackerRoom";
 import { Suspense } from "react";
 import CanvasLoader from "../components/canvasLoader";
-//import { Leva } from "leva";
+import { Leva } from "leva";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from '../constants/index.js';
 import Target from "../components/target.jsx";
@@ -27,7 +27,7 @@ const Hero = () => {
 				</p>
 			</div>
 			<div className="w-full h-full absolute inset-0">
-			{/*<Leva/>*/}
+			<Leva/>
 				<Canvas className="w-full h-full">
 					<Suspense fallback={<CanvasLoader/>}>
 						<PerspectiveCamera makeDefault position={[0, 0, 20]} />
