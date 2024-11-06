@@ -155,6 +155,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Sketchfab for 3D model hosting
 - ReadyPlayer for avatar system
 - Vue.js and React.js teams
+- And special thanks to [@adrianhajdin](https://github.com/adrianhajdin) for the awesome tutorial
 
 ## 📞 Support
 
