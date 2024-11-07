@@ -41,7 +41,7 @@ const About = () => {
 						<div>
 							<p className="grid-headtext">Tech Stack</p>
 							<p className="grid-subtext">
-								I specialize in a variety of languages, frameworks, and tools
+								We specialize in a variety of languages, frameworks, and tools
 								that allow me to build robust and scalable applications
 							</p>
 						</div>
@@ -92,7 +92,7 @@ const About = () => {
 							<p className="grid-headtext">Our Passion for Coding</p>
 							<p className="grid-subtext">
 								We love solving problems and building things through code.
-								Programming isn&apos;t just our profession—it&apos;s my passion.
+								Programming isn&apos;t just our profession, it&apos;s our passion.
 								We enjoy exploring new technologies, and enhancing our skills.
 							</p>
 						</div>
