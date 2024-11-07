@@ -21,7 +21,7 @@ A modern, interactive portfolio website built with Vue.js, React.js, and Three.j
 - **Avatar System**: ReadyPlayer SDK
 - **Build Tool**: Vite
 - **Styling**: SCSS/Tailwind CSS
-- **Type Checking**: TypeScript
+- **Type Checking**: JavaScript
 - **State Management**: Pinia/Vuex
 
 ## 📋 Prerequisites
