@@ -93,7 +93,7 @@ const About = () => {
 							<p className="grid-subtext">
 								We love solving problems and building things through code.
 								Programming isn&apos;t just our profession—it&apos;s my passion.
-								I enjoy exploring new technologies, and enhancing my skills.
+								We enjoy exploring new technologies, and enhancing our skills.
 							</p>
 						</div>
 					</div>
@@ -106,7 +106,7 @@ const About = () => {
 							className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
 						/>
 						<div className="space-y-2">
-							<p className="grid-subtext text-center">Contact me</p>
+							<p className="grid-subtext text-center">Contact Us</p>
 							<div className="copy-container" onClick={handleCopy}>
 								<img
 									src={hasCopied ? "assets/tick.svg" : "assets/copy.svg"}
