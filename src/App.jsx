@@ -2,7 +2,7 @@ import Navbar from './sections/navbar'
 import Hero from './sections/hero'
 import About from './sections/about'
 import Projects from './sections/project'
-import Clients from './sections/Clients'
+import Clients from './sections/clients'
 
 const App = () => {
   return (
