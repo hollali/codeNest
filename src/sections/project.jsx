@@ -67,7 +67,6 @@ const Projects = () => {
 								</div>
 							))}
 						</div>
-
 						<a
 							className="flex items-center gap-2 cursor-pointer text-white-600"
 							href={currentProject.href}
@@ -77,14 +76,12 @@ const Projects = () => {
 							<img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
 						</a>
 					</div>
-
 					<div className="flex justify-between items-center mt-7">
 						<button
 							className="arrow-btn"
 							onClick={() => handleNavigation("previous")}>
 							<img src="/assets/left-arrow.png" alt="left arrow" />
 						</button>
-
 						<button
 							className="arrow-btn"
 							onClick={() => handleNavigation("next")}>
@@ -96,7 +93,6 @@ const Projects = () => {
 						</button>
 					</div>
 				</div>
-
 				<div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full">
 					<Canvas>
 						<ambientLight intensity={Math.PI} />

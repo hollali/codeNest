@@ -4,32 +4,32 @@ A modern, interactive portfolio website built with Vue.js, React.js, and Three.j
 
 ## 🚀 Features
 
-- Interactive 3D environment powered by Three.js
-- Seamless integration with Sketchfab for 3D model hosting
-- Custom avatar animations using ReadyPlayer
+- Interactive 3D environment powered by [Three.js](https://threejs.org/)
+- Seamless integration with [Sketchfab](https://sketchfab.com/) for 3D model hosting
+- Custom avatar animations using [ReadyPlayer](https://www.readyplayer.me/)
 - Responsive design for all devices
 - Dynamic model loading and rendering
 - Smooth transitions and animations
 - Cross-browser compatibility
 
-## 🛠️ Technologies
+## 🔧️ Technologies
 
-- **Frontend Framework**: Vue.js 3 with Composition API
-- **UI Components**: React.js 18
-- **3D Graphics**: Three.js
-- **3D Model Integration**: Sketchfab API
-- **Avatar System**: ReadyPlayer SDK
-- **Build Tool**: Vite
-- **Styling**: SCSS/Tailwind CSS
-- **Type Checking**: JavaScript
-- **State Management**: Pinia/Vuex
+- **Frontend Framework**: [Vue.js 3](https://vuejs.org/) with Composition API
+- **UI Components**: [React.js 18](https://reactjs.org/)
+- **3D Graphics**: [Three.js](https://threejs.org/)
+- **3D Model Integration**: [Sketchfab API](https://sketchfab.com/developers)
+- **Avatar System**: [ReadyPlayer SDK](https://www.readyplayer.me/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [SCSS](https://sass-lang.com/) / [Tailwind CSS](https://tailwindcss.com/)
+- **Type Checking**: [TypeScript](https://www.typescriptlang.org/)
+- **State Management**: [Pinia](https://pinia.vuejs.org/) / [Vuex](https://vuex.vuejs.org/)
 
 ## 📋 Prerequisites
 
-- Node.js >= 16.0.0
-- npm >= 8.0.0
-- Sketchfab API key
-- ReadyPlayer account and API credentials
+- [Node.js](https://nodejs.org/) >= 16.0.0
+- [npm](https://www.npmjs.com/) >= 8.0.0
+- [Sketchfab](https://sketchfab.com/) API key
+- [ReadyPlayer](https://www.readyplayer.me/) account and API credentials
 
 ## 🔧 Installation
 
@@ -49,7 +49,7 @@ npm install
 npm run dev
 ```
 
-## 📁 Project Structure
+## 🗊 Project Structure
 
 ```
 3d-portfolio/
@@ -129,7 +129,7 @@ npm run build
 npm run deploy
 ```
 
-## 📈 Performance Optimization
+## 📊 Performance Optimization
 
 - Implement lazy loading for 3D models
 - Use compressed textures
@@ -145,18 +145,19 @@ npm run deploy
 4. Push to the branch
 5. Open a Pull Request
 
-## 📄 License
+## 💄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-- Three.js community
-- Sketchfab for 3D model hosting
-- ReadyPlayer for avatar system
-- Vue.js and React.js teams
+- [Three.js](https://threejs.org/) community
+- [Sketchfab](https://sketchfab.com/) for 3D model hosting
+- [ReadyPlayer](https://www.readyplayer.me/) for avatar system
+- [Vue.js](https://vuejs.org/) and [React.js](https://reactjs.org/) teams
 - And special thanks to [@adrianhajdin](https://github.com/adrianhajdin) for the awesome tutorial
 
-## 📞 Support
+## 📲 Support
 
 For support, email dheztinykartel@gmail.com or create an issue in the repository.
+
